@@ -58,7 +58,7 @@ class Main extends Component{
               </Col>
               <Col md={4}>
                <FormGroup>
-                  <Label sm="11"><h6><center>where</center></h6></Label>
+                  <Label sm="3"><h6><center>where</center></h6></Label>
                   <Input type="text" placeholder="search a location"/>
                 </FormGroup>  
              </Col>
