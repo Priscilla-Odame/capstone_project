@@ -3,6 +3,7 @@ import SignUp from './pages/SignUp';
 import LogIn from './pages/logIn';
 import Program from './pages/Program';
 import Main from './pages/Main';
+import Dashboard from './pages/Dashboard';
 import{
   BrowserRouter as Router,
   Route,
@@ -22,6 +23,7 @@ class App extends Component {
           <Route exact path="/login" component={LogIn}/>
           <Route exact path="/signup" component={SignUp}/>
           <Route exact path="/events" component={Program}/>
+          <Route exact path="/dashboard" component={Dashboard}/>
       
         </div>
       </Router>

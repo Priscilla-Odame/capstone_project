@@ -274,13 +274,14 @@ body {
   left: 30%;
   right: 30%;
   font-weight: 650;
-  color: #fcf9f9;
+  color: #e97171;
   font-family: sans-serif;
  
 }
 .centered p{
   font-size: 20px;
   font-family: sans-serif;
+  color: #883c3c;
 }
 .fon{
   position: absolute;
@@ -413,3 +414,37 @@ body {
   margin-left: 80px;
 
 }
+.db{
+  background-color: rgb(245, 187, 187);
+  height: 900px;
+  width: 100%;
+}
+.dashbar{
+  background-color: gray;
+  height: 90px;
+  width: 100%;
+  opacity: 0.8;
+}
+.navigate{
+  background-color: rgb(221, 146, 146);
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  color: white;
+}
+.navigate a{
+  display: block;
+  padding: 18px;
+  text-decoration: none;
+}
+.navigate a:hover, .dash_icon2:hover{
+  background-color: rgb(192, 93, 75);
+  color: white;
+}
+
+.username{
+  margin-top: 5px;
+  margin-left: 95%;
+  color: white;
+}
+

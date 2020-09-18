@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import{ Link , Redirect} from 'react-router-dom';
+import{ Link , Redirect, useHistory} from 'react-router-dom';
 
 
 export default class LogIn extends Component {
@@ -34,6 +34,7 @@ handleSubmit = (e)=>{
     "username": this.state.username,
     "password":this.state.password,
   }
+  const history = useHistory();
 
   console.log(this.state.username,this.state.password)
   axios.post("http://13.81.46.121:8080/api/login/", data)
@@ -41,9 +42,11 @@ handleSubmit = (e)=>{
     console.log(response);
     if(response.status === 200){
        console.log("Login successfull");
+       history.push('/dashboard')
        }
        else{
-         console.log(response.data)
+         console.log(response.data);
+         alert('Please Try again')
        };
   })
   .catch(function (error) {
@@ -51,6 +54,7 @@ handleSubmit = (e)=>{
   });
 
 }
+
 
 
   render() {
@@ -73,23 +77,9 @@ handleSubmit = (e)=>{
               </div>
 
               <div className="FormField">
-                  <button type="submit" className="FormField__Button mr-20"><Link to ="/events">Login</Link></button> 
+                  <button type="submit" className="FormField__Button mr-20"><Link to ="/dashboard">Login</Link></button> 
               </div>
               <Link to="/signup" className="FormField__Link">Not Signed up yet ? Click here</Link> 
-              {/* <div class="social-container">
-                <h3>SignUp with your Social media platform</h3>
-                <a 
-                   className="facebook social">
-                   <FontAwesomeIcon icon={faFacebook} size="2x" />
-                </a>
-                <a className="twitter social">
-                   <FontAwesomeIcon icon={faTwitter} size="2x" />
-                </a>
-                <a
-                   className="instagram social">
-                   <FontAwesomeIcon icon={faInstagram} size="2x" />
-                </a>
-                </div> */}
             </form>
           </div>
         </div>

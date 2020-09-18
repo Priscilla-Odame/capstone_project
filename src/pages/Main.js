@@ -97,12 +97,12 @@ class Main extends Component{
           </div>
           <div >
           <div className="abt1">
-          <h4 className="abt">About Us</h4>
-          <p>An award-winning and nationally-recognized event design and production company .this is simply amazing. Whether you are planning a two-day virtual conference, a fundraising gala or the social event of the season, The Event Company will create an unforgettable experience for you and your guests. Etiam dictum porttitor malesuada. In justo massa, venenatis eu laoreet vel, pellentesque non ligula. Nulla laoreet ut eros id maximus. Quisque odio orci, vulputate varius rutrum ut, elementum id sapien.Cras elementum nec quam ut molestie. Donec eu nibh sem. Praesent quis congue justo, pharetra mollis ipsum. Sed scelerisque nunc eu finibus pellentesque. Etiam non eros ev x. Maecenas eu faucibus lectus. v </p>
+            <h4 className="abt">About Us</h4>
+            <p>An award-winning and nationally-recognized event design and production company .this is simply amazing. Whether you are planning a two-day virtual conference, a fundraising gala or the social event of the season, The Event Company will create an unforgettable experience for you and your guests. Etiam dictum porttitor malesuada. In justo massa, venenatis eu laoreet vel, pellentesque non ligula. Nulla laoreet ut eros id maximus. Quisque odio orci, vulputate varius rutrum ut, elementum id sapien.Cras elementum nec quam ut molestie. Donec eu nibh sem. Praesent quis congue justo, pharetra mollis ipsum. Sed scelerisque nunc eu finibus pellentesque. Etiam non eros ev x. Maecenas eu faucibus lectus. v </p>
           </div>
           <div className="abt1">
-          <h4 className="abt">Enjoy All Benefits</h4>
-          <p>An award-winning and nationally-recognized event design and production company .this is simply amazing. Whether you are planning a two-day virtual conference, a fundraising gala or the social event of the season, The Event Company will create an unforgettable experience for you and your guests. Etiam dictum porttitor malesuada. In justo massa, venenatis eu laoreet vel, pellentesque non ligula. Nulla laoreet ut eros id maximus. Quisque odio orci, vulputate varius rutrum ut, elementum id sapien.Cras elementum nec quam ut molestie. Donec eu nibh sem. Praesent quis congue justo, pharetra mollis ipsum. Sed scelerisque nunc eu finibus pellentesque. Etiam non eros ev x. Maecenas eu faucibus lectus. v </p>
+            <h4 className="abt">Enjoy All Benefits</h4>
+            <p>An award-winning and nationally-recognized event design and production company .this is simply amazing. Whether you are planning a two-day virtual conference, a fundraising gala or the social event of the season, The Event Company will create an unforgettable experience for you and your guests. Etiam dictum porttitor malesuada. In justo massa, venenatis eu laoreet vel, pellentesque non ligula. Nulla laoreet ut eros id maximus. Quisque odio orci, vulputate varius rutrum ut, elementum id sapien.Cras elementum nec quam ut molestie. Donec eu nibh sem. Praesent quis congue justo, pharetra mollis ipsum. Sed scelerisque nunc eu finibus pellentesque. Etiam non eros ev x. Maecenas eu faucibus lectus. v </p>
           </div>
         </div>
         </div>
@@ -122,17 +122,15 @@ class Main extends Component{
                   <CopyrightIcon/>cpyright 2020</p>
               </div>
               <div className="icn2">
-              <center>
-                <FacebookIcon/>
-                <TwitterIcon/>
-                <InstagramIcon/>
-              </center>
+                <center>
+                  <FacebookIcon/>
+                  <TwitterIcon/>
+                  <InstagramIcon/>
+                </center>
               </div>
               <div className="icn3">
                 <p>Privacy Policy |Terms of Service</p>
               </div>
-             
-
             </div>       
           </div>
         </div>
