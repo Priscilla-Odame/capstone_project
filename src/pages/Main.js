@@ -35,7 +35,8 @@ class Main extends Component{
         <Link to="/signup"><i class="fa fa-fw fa-sign-in"></i> SignUp</Link>
       </div>  
       <div>
-        <img style={ingStyle}src= {require("../assets/images/banner.jpg")} />
+        <div className="ban">
+        <img style={ingStyle}src= {require("../assets/images/banner.jpg")} /></div>
         <div >
           <div className="centered">
             <center>EXPLORE THE FUN

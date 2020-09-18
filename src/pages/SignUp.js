@@ -119,24 +119,11 @@ class SignUp extends Component {
               </div>
 
               <div className="FormField">
-                  <button type="submit" className="FormField__Button mr-20">Sign Up</button> 
+                  <button type="submit" className="FormField__Button mr-20"><Link to="/login">Sign Up</Link></button> 
                   {/* <Link to="/sign-in" className="FormField__Link">I'm already member</Link> */}
               </div>
               <Link to="/login" className="FormField__Link">Already Signed up ? Click here</Link> 
-              {/* <div class="social-container">
-                <h3>SignUp with your Social media platform</h3>
-                <a 
-                   className="facebook social">
-                   <FontAwesomeIcon icon={faFacebook} size="2x" />
-                </a>
-                <a className="twitter social">
-                   <FontAwesomeIcon icon={faTwitter} size="2x" />
-                </a>
-                <a
-                   className="instagram social">
-                   <FontAwesomeIcon icon={faInstagram} size="2x" />
-                </a>
-                </div> */}
+              
             </form>
           </div>
         </div>

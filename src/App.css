@@ -271,17 +271,21 @@ body {
   position: absolute;
   top: 40%;
   font-size: 55px;
-  left: 30%;
+  left: 25%;
   right: 30%;
   font-weight: 650;
-  color: #e97171;
+  color: #fdfafa;
   font-family: sans-serif;
+  width: 800px;
+  border: 6px solid white;
+  padding: 9px;
  
 }
+
 .centered p{
   font-size: 20px;
   font-family: sans-serif;
-  color: #883c3c;
+  color: #ee9b9b;
 }
 .fon{
   position: absolute;
@@ -447,4 +451,13 @@ body {
   margin-left: 95%;
   color: white;
 }
-
+.ban{
+  height: 600px;
+  width: 100%;
+  background: black;
+  overflow: hidden;
+}
+.ban img{
+  object-fit: cover;
+  opacity: 0.5;
+}
